@@ -1,0 +1,22 @@
+{
+  "name": "glowing-memory",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cabactulan-Virgil/glowing-memory.git"
+  },
+  "author": " Cabactulan Virgil S,",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cabactulan-Virgil/glowing-memory/issues"
+  },
+  "homepage": "https://github.com/Cabactulan-Virgil/glowing-memory#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
