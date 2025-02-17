@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form class="login">
+                <h1>Login</h1>
+                <label>Username</label>
+                <input type="text" />
+                <label>Password</label>
+                <input type="password" />
+                <button>Login</button>
+                <p>Don't have an account? <a href="#" onclick="showRegister()">Register</a></p>
+            </form>
+            <form class="register" style="display: none;">
+                <h1>Register</h1>
+                <label>Username</label>
+                <input type="text" />
+                <label>Email</label>
+                <input type="email" />
+                <label>Password</label>
+                <input type="password" />
+                <label>Confirm Password</label>
+                <input type="password" />
+                <button>Register</button>
+                <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showRegister() {
+            document.querySelector('.login').style.display = 'none';
+            document.querySelector('.register').style.display = 'block';
+        }
+
+        function showLogin() {
+            document.querySelector('.register').style.display = 'none';
+            document.querySelector('.login').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
